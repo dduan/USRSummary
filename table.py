@@ -8,11 +8,12 @@ header_content = all_input[0]
 body_content = all_input[1:]
 
 lines = []
+lines.append("<main>")
 lines.append("<table>")
-lines.append("  <tr>")
+lines.append("  <thead><tr>")
 for col in header_content.split('\t'):
     lines.append(f"    <th>{col}</th>")
-lines.append("  </tr>")
+lines.append("  </tr></thead>")
 
 for row in body_content:
     lines.append('  <tr>')
@@ -20,5 +21,6 @@ for row in body_content:
         lines.append(f"    <td>{col}</td>")
     lines.append('  </tr>')
 lines.append("</table>")
+lines.append("</main>")
 
 print("\n".join(lines))
