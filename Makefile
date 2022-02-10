@@ -26,3 +26,4 @@ debug:
 dump:
 	@$(MAKE) debug
 	@.build/debug/usr-summary > .build/output.tsv
+	@python3 table.py .build/output.tsv > .build/output.html

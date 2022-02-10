@@ -4,4 +4,4 @@ This project dumps out USRs for symbols in Swift's system modules such as Founda
 
 ## Usage
 
-`make dump` generates `.build/output.tsv`.
+`make dump` generates `.build/output.tsv` and `.build/output.html`.
