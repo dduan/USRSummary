@@ -12,6 +12,7 @@ import func Glibc.exit
 import var Glibc.EXIT_FAILURE
 import var Glibc.stderr
 #endif
+import XCTest
 
 func bail(_ message: String) -> Never {
     fputs(message, stderr)
