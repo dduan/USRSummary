@@ -7,7 +7,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/apple/indexstore-db",
-            .revision("swift-5.5.2-RELEASE")
+            .revision("swift-5.5.3-RELEASE")
         ),
         .package(
             url: "https://github.com/dduan/Pathos",

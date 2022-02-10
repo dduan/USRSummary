@@ -5,7 +5,7 @@
         "package": "IndexStoreDB",
         "repositoryURL": "https://github.com/apple/indexstore-db",
         "state": {
-          "branch": "swift-5.5.2-RELEASE",
+          "branch": "swift-5.5.3-RELEASE",
           "revision": "e771994778265c2efe8d33a7ca30adf5f3d2065a",
           "version": null
         }
